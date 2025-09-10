@@ -7,7 +7,7 @@ density = " .:-=+*#%@"
 density = density[::-1]
 
 # Load image
-img = Image.open(r"C:\Users\tomas\Desktop\projects\asciiart\mountains.jpg")
+img = Image.open(r"FILE PATH")
 
 # Downscale by 8
 factor = 8
@@ -53,5 +53,6 @@ for y, line in enumerate(ascii_art):
     draw.text((0, y * char_height), line, fill=fg_color, font=font)
 
 # Save the ASCII image
-ascii_img.save(r"C:\Users\tomas\Desktop\projects\asciiart\ascii_image2.png")
+ascii_img.save(r"SAVE PATH")
+
 ascii_img.show()
